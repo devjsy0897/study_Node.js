@@ -10,18 +10,20 @@ const { User } = require("./models/User");
 //application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({extended: true}));
 
-//application/json
+//application/json 
 app.use(bodyParser.json());
 app.use(cookieParser());
+
 const mongoose = require('mongoose')
-mongoose.connect(config.mongoURI).then( ()=> console.log('MongoDB Connected...'))
-.catch(err => console.log(err))
+mongoose.connect(config.mongoURI, {
+  useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false
+}).then(() => console.log('MongoDB Connected...'))
+  .catch(err => console.log(err))
 
 
+app.get('/', (req, res) => res.send('Hello World!~~ '))
 
-app.get('/', (req, res) => {    
-  res.send('Hello world!')
-})
+app.get('/api/hello', (req, res) => res.send('Hello World!~~ '))
 
 app.post('/api/users/register', (req, res) => {
 
@@ -101,6 +103,7 @@ app.get('/api/users/logout', auth, (req, res) => {
       })
     })
 })
+
 
 
 
