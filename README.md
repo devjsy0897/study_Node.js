@@ -16,5 +16,5 @@ study node.js
 4. index.js에서 require expess 해주고 port번호 지정 등 세팅함<br>
 5. npm install body-parser --save : 클라이언트 POST request data의 body로부터 파라미터를 가져오게 함<br>
 6. index.js에 require body-parser 등 필요한 코드 입력<br>
-7.   
+7. npm install nodemon --save-dev : 소스를 변경할 때 감지해 자동으로 서버를 재 시작해주는 tool
 </p>
