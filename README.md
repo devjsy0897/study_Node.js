@@ -9,10 +9,12 @@ study node.js
 <a href="https://askforyou.tistory.com/19?category=997470">모듈을 이용한 node.js</a>
 
 <h3>MEMO</h3>
-1. npm init : 프로젝트 생성<br>        
-2. index.js 생성        
-3. npm install express --save : express 설치        
-4. index.js에서 require expess 해주고 port번호 지정 등 세팅함        
-5. npm install body-parser --save : 클라이언트 POST request data의 body로부터 파라미터를 가져오게 함       
-6. index.js에 require body-parser 등 필요한 코드 입력  
+<p>
+1. npm init : 프로젝트 생성
+2. index.js 생성<br>
+3. npm install express --save : express 설치<br>
+4. index.js에서 require expess 해주고 port번호 지정 등 세팅함<br>
+5. npm install body-parser --save : 클라이언트 POST request data의 body로부터 파라미터를 가져오게 함<br>
+6. index.js에 require body-parser 등 필요한 코드 입력<br>
 7.   
+</p>
