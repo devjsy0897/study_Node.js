@@ -9,7 +9,7 @@ study node.js
 <a href="https://askforyou.tistory.com/19?category=997470">모듈을 이용한 node.js</a>
 
 <h3>MEMO</h3>
-1. npm init : 프로젝트 생성        
+1. npm init : 프로젝트 생성<br>        
 2. index.js 생성        
 3. npm install express --save : express 설치        
 4. index.js에서 require expess 해주고 port번호 지정 등 세팅함        
