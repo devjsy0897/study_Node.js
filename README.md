@@ -9,3 +9,5 @@ study node.js
 <a href="https://askforyou.tistory.com/19?category=997470">모듈을 이용한 node.js</a>
 
 <h3>MEMO</h3>
+1. npm init : 프로젝트 생성
+2. 
