@@ -19,9 +19,9 @@ study node.js
 7. npm install nodemon --save-dev : 소스를 변경할 때 감지해 자동으로 서버를 재 시작해주는 tool<br>
 8. npm install -s express-session : session을 사용할 때 필요한 패키지 설치<br>
 </p>
+
+<h4>Module을 이용한 프로젝트 구성 -> <a href="https://askforyou.tistory.com/19?category=887470">참고 블로그</a><h4>
 <p>
-Module을 이용한 프로젝트 구성 <br>
-  <a href="https://askforyou.tistory.com/19?category=887470">참고 블로그</a>
   routes > controllers > services<br>
   - routes : 라우팅 정보를 가집니다.<br>
   - controllers : 라우팅 정보에 의해 전달된 처리를 하는 로직입니다.<br>
