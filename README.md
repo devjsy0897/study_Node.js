@@ -20,10 +20,11 @@ study node.js
 8. npm install -s express-session : session을 사용할 때 필요한 패키지 설치<br>
 </p>
 <p>
-Module <br>
+Module을 이용한 프로젝트 구성 <br>
+  <a href="https://askforyou.tistory.com/19?category=887470">참고 블로그</a>
   routes > controllers > services<br>
   - routes : 라우팅 정보를 가집니다.<br>
   - controllers : 라우팅 정보에 의해 전달된 처리를 하는 로직입니다.<br>
   - services : controller에서 전달된 정보에 의해서 DB 처리 등을 담당합니다.<br>
-  <a href="https://askforyou.tistory.com/19?category=887470">참고 블로그</a>
+  
 </p>
